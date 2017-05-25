@@ -28,7 +28,6 @@ class ImageViewer extends React.Component {
 			return null;
 		}
 		if (img.data) {
-			console.log(img);
 			return img.data;
 		}
 		return img.src;
